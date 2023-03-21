@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <div class="video-container">
+        <div class="row">
+            <div class="tile col-lg-2 col-md-3 m-2 card">
+                <div class="card-body">
+                    <div class="h-75 p-1"><a asp-area="" asp-page="/firstvd"><img src="~/assets/music.jpg" class="img-fluid"></a></div>
+                    <h4>MUSIC</h4>
+                </div>
+            </div>
+            <div class="tile col-lg-2 col-md-3 m-2 card">
+                <div class="card-body">
+                    <div class="h-75 p-1"><a asp-area="" asp-page="/secondvd"><img src="~/assets/sport.jpg" class="img-fluid"></a></div>
+                    <h4>SPORTS</h4>
+                </div>
+            </div>
+            <div class="tile col-lg-2 col-md-3 m-2 card">
+                <div class="card-body">
+                    <div class="h-75 p-1"><a asp-area="" asp-page="/thirdvd"><img src="~/assets/entertainment.jpg" class="img-fluid"></a></div>
+                    <h4>ENTERTAINMENT</h4>
+                </div>
+            </div>
+            <div class="tile col-lg-2 col-md-3 m-2 card">
+                <div class="card-body">
+                    <div class="h-75 p-1"><a asp-area="" asp-page="/fourthvd"><img src="~/assets/education.jpg" class="img-fluid"></a></div>
+                    <h4>EDUCATION</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

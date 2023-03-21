@@ -1,0 +1,36 @@
+﻿@page
+@model MinaPlay.Pages.thirdvdModel
+@{
+    ViewData["Title"] = "Third video content";
+}
+
+
+<div class="m-2 card h-50">
+    <div class="card-body">
+        <div class="flex-md-wrap"><a asp-area="" asp-page="/thirdvd"><img src="~/assets/entertainment.jpg" class="img-fluid"></a></div>
+        <h4 class="pl-1">ENTERTAINMENT</h4>
+    </div>
+
+</div>
+<h3>How satisfied are you by this video???</h3>
+<form>
+    <div id="radioGroup">
+        <div class="wrap">
+            <label for="Very Satisfied"> Very Satisfied</label>
+            <input type="radio" name="mark" id="Very Satisfied" value="Very Satisfied" />
+        </div>
+
+        <div class="wrap">
+            <label for="Satisfied">Satisfied</label>
+            <input type="radio" name="mark" id="Satisfied" value="Satisfied" />
+        </div>
+        <div class="wrap">
+            <label for="Slightly Satisfied">Slightly Satisfied</label>
+            <input type="radio" name="mark" id="Slightly Satisfied" value="Slightly Satisfied" />
+        </div>
+        <div class="wrap">
+            <label for="Not Satisfied">Not Satisfied</label>
+            <input type="radio" name="mark" id="Not Satisfied" value="Not Satisfiedull" />
+        </div>
+    </div>
+</form>

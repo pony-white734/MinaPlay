@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Pony\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Pony\\.nuget\\packages"
+    ]
+  }
+}
